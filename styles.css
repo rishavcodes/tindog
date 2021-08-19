@@ -1,0 +1,179 @@
+body{
+    font-family: 'Montserrat';
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.first-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container{
+    padding: 3% 14%;
+}
+
+/* navigation bar  */
+
+
+
+.navbar-br{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.row{
+    padding-top: 4rem;
+    padding-left: 1.3rem;
+    position: relative;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+/* download button  */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image  */
+
+.title-image{
+    width: 55%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.secondpage-icon{
+   size: 5x;   
+}
+
+.container{
+    padding-bottom: 10%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: 'Lilita One', cursive;
+}
+
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.test-text{
+    font-size: 3rem;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 10%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cta-text{
+    font-size: 3rem;
+}
+
+.cta-button{
+   margin: 20px;
+}
+
+.social-links{
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 988px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
